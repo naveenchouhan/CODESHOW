@@ -1,0 +1,131 @@
+
+*{
+    background: black;
+}
+h2.Ev{
+    
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-shadow: 0 0 10px rgb(0, 255, 255),
+    0 0 20px rgb(0, 255, 255),
+    0 0 40px rgb(0, 255, 255);
+
+}
+.caro{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    /* height: 300px; */
+    /* margin: auto; */
+    /* left: 300px;
+    right: 260px;
+    padding: 100px; */
+    /* margin-top: auto; */
+    background: black;
+    /* margin-bottom: 5%; */
+}
+.polaroid:hover{
+    animation: scale 2s forwards;
+}
+
+.img{
+    padding: 10px;
+}
+div.polaroid{
+    border-radius: 5%;
+    display: block;
+   /* overflow: hidden; */
+    /* box-shadow: 0 2px 4px 0 rgb(0, 255, 255); */
+    text-align: center;
+    /* overflow: hidden; */
+}
+div.polaraid img{
+    display: block;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px 0 rgb(0, 255, 255);
+    overflow: hidden;
+}
+div.container{
+    display: block;
+    text-align: center;
+    padding: 3%;
+    color: white;
+    
+    background: rgba(255, 255, 255, 0);
+    border-radius: 0 0 5% 5%;
+    box-shadow: 0 0 10px rgb(0, 255, 255),
+    0 0 20px rgb(0, 255, 255),
+    0 0 40px rgb(0, 255, 255);
+    text-shadow: 0 0 10px rgb(0, 255, 255),
+    0 0 20px rgb(0, 255, 255),
+    0 0 40px rgb(0, 255, 255),
+    0 0 80px rgb(0, 255, 255),
+    0 0 120px rgb(0, 255, 255);
+    border: 5px solid rgb(0, 255, 255);
+}
+.container:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(0, 255, 255);
+    
+}
+div.carousel-item{
+    border-radius: 5%;
+    /* box-shadow: 0 2px 4px 0 black; */
+    /* padding: 30px; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    background: rgba(0, 0, 0, 0);
+}
+@keyframes scale {
+    from{scale:100%;}
+    to{scale: 105%;}
+}
+
+
+.cols-data{
+    margin: 1vh;
+  }
+  #Footer
+  {
+    margin: auto 2vh;
+    position: relative;
+  }
+  .codeshow-title{
+    margin-bottom: 2vh;
+    color: #4fd7f3;
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  .container-fluid{
+    margin: 10vh;
+    font-size: 2rem;
+    /* margin-left: vh; */
+  }
+  .community-icon{
+    margin-top: 2vh;
+    font-size: 3rem;
+    margin-right: 1vh;
+  }
+  .community-icon:hover{
+    color: aqua;
+    font-size: 3.4rem;
+  }
+  a{
+    color: #c5fbf1;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #43f4d3;
+    text-decoration: none;
+  }
+  .Copyright{
+    text-align: center;
+  }
