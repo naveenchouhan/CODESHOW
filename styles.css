@@ -117,8 +117,9 @@ a{
     margin :auto;
 }
 .page{
-    position: absolute;
+/*     position: absolute; */
     width: 30%;
+    margin: 0 auto;
     height: 70%;
     background: transparent;
     border: 2px solid #ffff;
